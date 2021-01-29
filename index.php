@@ -51,3 +51,9 @@ foreach ($indicesServer as $arg) {
     }
 }
 echo '</table>' ;
+
+
+$data = @gethostbyaddr($_SERVER['REMOTE_ADDR']);
+echo "<pre>";
+print_r($data);
+echo "<pre>";
